@@ -1,7 +1,64 @@
-section ul li {
-  list-style-type: none;	
-  padding: 1px 10px;
-  float: right;
-  font-size: 15px;
-  font-family: 'Indie Flower', cursive;
+/*HEADER*/
+header {
+	opacity: 0.8;
+	background-color: black;
 }
+header ul li {
+	display: inline-block;
+	padding: 10px;
+	border-right: 1px solid white;
+	margin-bottom: 20px
+}
+nav ul li {
+	padding: 30px;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	border-radius: 70%;
+	line-height: 5px;
+}
+a:visited {
+	color: white;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #45E5FF;
+}
+nav ul li:hover {
+  background-color: gray;
+}
+nav ul li a {
+  color: black;
+}
+.contact ul li {
+	display: inline-block;
+}
+.navbar {
+	width: 1410px;
+	text-align: center;
+}	
+.contact {
+	font-family: 'Indie Flower', cursive;
+	width: 1410px;
+	height: 80px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-bottom: 5px;
+}
+/*SLIDER*/
+div h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	font-family: 'Indie Flower', cursive;
+}
+.rounded {
+	border-radius: 100%
+	height: 100px;
+}
+
+
