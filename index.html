@@ -60,43 +60,69 @@
 			<img src="Images/Logo4.jpg" alt="Logo Chhhut"/>
 		</div>
 		<div>	
-  			<h1>Cuisine Familiale</h1>
+  			<h1>Cuisine Familiale et Bistronomique</h1>
   		</div>
   	<div class="container">	
 			<div class="row text-center height">
 				<div class="col-md-4">
 					<div class="parent">
+						<div class="jour" data-toggle="modal" data-target="#myModal">
 						<img src="Images/Home1.jpg" alt="Menu du Jour" class="img-circle rounded"/>
 						<div class="hidden_message">
-							<p>Menu du Jour</p>
+							<p><strong>Menu du Jour</strong></p>
 						</div>
 					</div>	
+					</div>	
 					<div>
-						<h2>Pour Manger Aujourd'hui</h2>
-	        			<p>Carpaccio de Courgettes 
-	        			<Br>Cheeseburger Roquefort
-	        			<Br>Tiramisu</p>
+						<h3>Pour Manger Aujourd'hui</h3>
+						<p>Découvrez le Menu du Jour et venez vous régaler avec nos produits Frais.</p>
+						<!-- Button trigger modal -->
+		<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+		  CLIQUEZ ICI
+		</button>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Menu du Jour</h4>
+		      </div>
+		      <div class="modal-body">
+		        	<p>Carpaccio de Courgettes 
+	        		<Br>Cheeseburger Roquefort
+	        		<Br>Tiramisu</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-info btn-lg" data-dismiss="modal">FERMER</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	        		</div>	
 	    		</div>		
 	    		<div class="col-md-4">
 	    			<div class="parent">
 	    				<img src="Images/Home2.jpg" alt="La Presse parle de Chhhut" class="img-circle rounded"/>    	
 						<div class="hidden_message">
-							<p>La Presse dit</p>
+							<p><strong>La Presse dit</strong></p>
 						</div>
 					</div>	
-					<h2>On Parle de Chhhut !</h2>
+					<h3>On Parle de Chhhut !</h3>
 					<p>Avec un nom pareil ce n'est pas faute de vouloir rester discret, malgré ça la presse parle quand même de Nous.</p>
+					<button class="btn btn-info btn-lg">CLIQUEZ ICI</button>
 				</div>
 				<div class="col-md-4">
 						<div class="parent">
 							<img src="Images/Home3.jpg" alt="A Propos de Nous" class="img-circle rounded"/>
 							<div class="hidden_message">
-								<p>Dam & Nad</p>
+								<p><strong>Dam & Nad</strong></p>
 							</div>
 						</div>		
-					<h2>A Propos de Nous</h2>
+					<h3>A Propos de Nous</h3>
 					<p>Une Cuisine Familiale, des Produits Frais renouvellés quotidiennement et cuisinés avec Amour.</p>
+					<button a href="#" class="btn btn-info btn-lg">CLIQUEZ ICI</button>
+		</button>
 				</div>	
 			</div>
 			<div class="row height">
@@ -127,5 +153,6 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="global.js"></script>
 </body>
 </html>
