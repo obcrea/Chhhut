@@ -1,7 +1,7 @@
 /*HEADER*/
 /
 .container {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 30px;
 }
 
@@ -15,7 +15,7 @@
 	font-size: 18px;
 }
 .contact {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	height: 80px;
 	background-color: white;
 	color: black;
@@ -27,12 +27,10 @@
 /*NAVBAR*/
 
 .navbar li {
-	padding: 30px;
-	font-family: 'Indie Flower', cursive;
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 22px;
-	border-radius: 50%;
-	line-height: 5px;
-	border-right: 1px solid white;
+	border-right: 1px solid white; 
 	display: inline-block;
 }
 .navbar .navbar-nav {
@@ -89,15 +87,15 @@ h1 {
 	color: white;
 	text-align: center;
 	opacity: 0.8;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 }
 h2 {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 40px;
 }
 h3 {
-	font-family: 'Indie Flower', cursive;
-	font-size: 35px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
 }
 .logo {
 	display: block;
@@ -110,7 +108,7 @@ footer {
 	background-color: black;
 	color: white;
 	opacity: 0.8;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	line-height: 40px;
 }
 ul {
@@ -120,7 +118,7 @@ ul {
 	border: 2px solid black;
 }
 .img-circle {
-	height: 250px;
+	height: 200px;
 } 
 .fa-envelope {
 	color: black;
@@ -143,8 +141,8 @@ ul {
 	opacity: 0.8;
 }
 .parent {
-	height: 250px;
-	width: 260px;
+	height: 200px;
+	width: 208px;
 	border-radius: 50%;
 	overflow: hidden;
 	margin: auto;
@@ -158,14 +156,14 @@ ul {
 	height: 100%;
 	border-radius: 50%;
 	border: 1px solid black;	
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	margin:auto;
 	top: 0;
 	left: 0;
 	width: 100%;
 	color: black;
-	padding-top: 80px;
-	font-size: 35px;
+	padding-top: 40px;
+	font-size: 30px;
 }
 .hidden_message p {
 	margin: 20px;
@@ -185,13 +183,13 @@ ul {
 	opacity: 0.7;
 	border-radius: 10%;
 	border: 3px solid #45E5FF;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 50px;
 	color: white;
 	font-weight: bold;
 }
 .modal-title {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 50px;
 	color: white;
 	font-weight: bold;
@@ -219,7 +217,7 @@ ul {
 	color: white;
 }
 .sidebar {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 26px;
 	border-left: 1px solid black;
 }
