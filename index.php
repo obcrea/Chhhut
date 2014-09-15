@@ -1,5 +1,5 @@
 <?php
-$title ="Chhhut Bistro Restaurant";
+$title ="Chhhut !!! Bistro Restaurant";
 $meta_description ="Le Chhhut, Restaurant Familial et Bistronomique à Paris 3è";
 include "header.php";
 ?>
