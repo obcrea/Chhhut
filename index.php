@@ -22,7 +22,7 @@ include "header.php";
 					</div>	
 					</div>	
 					<div>
-						<h3>Aujourd'hui</h3>
+						<h3>Aujourd'ui</h3>
 						<p>Découvrez le Menu du Jour et venez vous régaler avec nos produits Frais.</p>
 						<!-- Button trigger modal -->
 		
